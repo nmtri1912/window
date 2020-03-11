@@ -1,0 +1,32 @@
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\bin\Debug\Multimedia Player.exe.config
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\bin\Debug\Multimedia Player.exe
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\bin\Debug\Multimedia Player.pdb
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.csprojAssemblyReference.cache
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\MainWindow.g.cs
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\App.g.cs
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player_MarkupCompile.cache
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player_MarkupCompile.lref
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\MainWindow.baml
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.g.resources
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia_Player.Properties.Resources.resources
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.csproj.GenerateResource.cache
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.exe
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.pdb
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\bin\Debug\Gma.System.MouseKeyHook.dll
+C:\Users\MinhTri\source\repos\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.csproj.CopyComplete
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\bin\Debug\Multimedia Player.exe.config
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\bin\Debug\Multimedia Player.exe
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\bin\Debug\Multimedia Player.pdb
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\bin\Debug\Gma.System.MouseKeyHook.dll
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player_MarkupCompile.cache
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player_MarkupCompile.lref
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.g.resources
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia_Player.Properties.Resources.resources
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.csproj.CopyComplete
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.exe
+\\Mac\Home\Desktop\Multimedia Player\Multimedia Player\obj\Debug\Multimedia Player.pdb

@@ -1,0 +1,3 @@
+Replace|a|s
+NewCase|UpperCase
+Fullname Normalize|NoneSpace

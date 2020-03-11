@@ -1,0 +1,79 @@
+﻿<Window x:Class="_8_Puzzle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_8_Puzzle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="900" KeyDown="OnKeyDown">
+    <Canvas>
+        <Canvas Background="White" Name="Container" 
+            MouseLeftButtonDown="Container_MouseLeftButtonDown"
+            MouseMove="Container_MouseMove"
+            MouseLeftButtonUp="Container_MouseLeftButtonUp"
+            Width="500" Height="500" Canvas.Top="20" Canvas.Left="20">
+
+        </Canvas>
+        <TextBlock  x:Name="time" Background="White"  Width="106" Height="58" Canvas.Top="5" Canvas.Left="748">
+                    <DockPanel Width="130">
+                        <Image Source="/Icon/clock.png" Width ="55" Height="54"/>
+                        <Label Name="CountDown" Content="" Width="64" FontSize="20" VerticalAlignment="Center" HorizontalContentAlignment="Stretch"></Label>
+                    </DockPanel>
+        </TextBlock>
+        <Button Name="add" Click="AddButtonClick"  Background="White"  Width="145" Height="58" Canvas.Top="312" Canvas.Left="537">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Name="addBorder" CornerRadius="10" BorderBrush="#333d79" BorderThickness="3" >
+                        <DockPanel Margin="15,0,10,0">
+                            <Image Source="/Icon/picture.png" Width ="32" Height="32"></Image>
+                            <TextBlock Text=" ADD FILE" FontSize="16" VerticalAlignment="Center" Width ="80" FontWeight="DemiBold"></TextBlock>
+                        </DockPanel>
+                    </Border>
+
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Name="start"  Click="PlayButtonClick"  Background="White" Width="145" Height="58" Canvas.Top="312" Canvas.Left="709">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border CornerRadius="10" Background="White" BorderBrush="#333d79" BorderThickness="3" >
+                        <DockPanel Margin="20 0 0 0">
+                            <Image Source="/Icon/start.png" Width ="38" Height="35"></Image>
+                            <TextBlock Text="  START" FontSize="16" VerticalAlignment="Center"  Width ="100" FontWeight="DemiBold">
+                            </TextBlock>
+                        </DockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Name="load" Click="LoadButtonClick"  Background="White" Width="145" Height="58" Canvas.Top="400" Canvas.Left="537">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border CornerRadius="10" Background="White" BorderBrush="#333d79" BorderThickness="3" >
+                        <DockPanel Margin="20,0,20,0">
+                            <Image Source="/Icon/loading.png" Width ="32" Height="32"></Image>
+                            <TextBlock Text="   LOAD " FontSize="16" VerticalAlignment="Center"  Width ="99" FontWeight="DemiBold">
+                            </TextBlock>
+                        </DockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Name="save" Click="SaveButtonClick"  Background="White" Width="145" Height="58" Canvas.Top="400" Canvas.Left="709">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border CornerRadius="10" Background="White" BorderBrush="#333d79" BorderThickness="3" >
+                        <DockPanel Margin="20,0,20,0">
+                            <Image Source="/Icon/save.png" Width ="30" Height="30"></Image>
+                            <TextBlock Text="     SAVE " FontSize="16" VerticalAlignment="Center"  Width ="99" FontWeight="DemiBold">
+                            </TextBlock>
+                        </DockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Canvas Background="White" Name="Result" Width="230" Height="230" Canvas.Left="584" Canvas.Top="60"/>
+    </Canvas>
+</Window>

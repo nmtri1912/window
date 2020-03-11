@@ -1,0 +1,18 @@
+﻿<Window x:Class="BatchRename.ReplaceDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BatchRename"
+        mc:Ignorable="d"
+        Title="ReplaceDialog" Height="450" Width="450">
+    <Canvas>
+        <Label Canvas.Left="10" Canvas.Top="26" Width="430" FontSize="30" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Replace Action</Label>
+        <Label Canvas.Left="29" Canvas.Top="117">Enter string to be placed</Label>
+        <TextBox Name="fromTextBox" Height="39" Width="383" Canvas.Left="29" Canvas.Top="148" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></TextBox>
+        <Label Canvas.Left="29" Canvas.Top="224">Replace with</Label>
+        <TextBox Name="toTextBox" Height="39" Width="383" Canvas.Left="29" Canvas.Top="255" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></TextBox>
+        <Button Name="saveButton" Width="127" Height="45" Canvas.Left="29" Canvas.Top="323" Click="SaveButton_Click">Save</Button>
+        <Button Name="cancelButton" Height="42" Width="133" Canvas.Left="279" Canvas.Top="326" IsCancel="True">Cancel</Button>
+    </Canvas>
+</Window>

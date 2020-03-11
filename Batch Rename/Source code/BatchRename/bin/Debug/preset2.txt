@@ -1,0 +1,3 @@
+Replace|999|333
+NewCase|LowerCase
+Fullname Normalize|NoneSpace

@@ -1,0 +1,2 @@
+Replace|giun|san
+NewCase|Standard
